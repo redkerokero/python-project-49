@@ -7,7 +7,7 @@ def is_even(number):
 
 
 def even_game():
-    game_description = (
+    game_task = (
         'Answer "yes" if the number is even, ',
         'otherwise answer "no".',
     )
@@ -21,4 +21,4 @@ def even_game():
         else:
             answer = 'no'
         game_data.append((question, answer))
-    engine.main(game_description, game_data)
+    engine.main(game_task, game_data)
