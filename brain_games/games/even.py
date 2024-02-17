@@ -7,10 +7,7 @@ def is_even(number):
 
 
 def even_game():
-    game_task = (
-        'Answer "yes" if the number is even, ',
-        'otherwise answer "no".',
-    )
+    game_task = 'Answer "yes" if the number is even, otherwise answer "no".'
     amount_of_rounds = 3
     max_number = 99
     game_data = []
