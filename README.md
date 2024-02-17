@@ -5,8 +5,15 @@
 ### Brain-games install
 [![asciicast](https://asciinema.org/a/LxqUBzA7WAKsyXcR4aamNo96h.svg)](https://asciinema.org/a/LxqUBzA7WAKsyXcR4aamNo96h)
 
-### Brain-games win
+### Brain-even win
 [![asciicast](https://asciinema.org/a/ujlMWelPHdigqYutGxsS4f6ra.svg)](https://asciinema.org/a/ujlMWelPHdigqYutGxsS4f6ra)
 
-### Brain-games defeat
+### Brain-even defeat
 [![asciicast](https://asciinema.org/a/DIQGoPSMgjkhu03FteayZnqec.svg)](https://asciinema.org/a/DIQGoPSMgjkhu03FteayZnqec)
+
+### Brain-calc win
+[![asciicast](https://asciinema.org/a/0NWJZePJ814cjX7L8UqRrVoTb.svg)](https://asciinema.org/a/0NWJZePJ814cjX7L8UqRrVoTb)
+[![asciicast](https://asciinema.org/a/BU8OVwI8j1ID23oGHxsjs5pXu.svg)](https://asciinema.org/a/BU8OVwI8j1ID23oGHxsjs5pXu)
+
+### Brain-calc defeat
+[![asciicast](https://asciinema.org/a/NifmrxqrW4MpGZ7cZSq1nXUFO.svg)](https://asciinema.org/a/NifmrxqrW4MpGZ7cZSq1nXUFO)
