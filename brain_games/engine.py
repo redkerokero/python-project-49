@@ -1,12 +1,12 @@
 import prompt
 
 
-def main(description, question, correct_answer):
-    rounds_number = 3
+def main(game_description, game_data):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!')
-    print(description)
-    for game_round in range(rounds_number):
+    print(game_description)
+    for game_round, round_data in enumerate(game_data):
+        question, correct_answer = round_data
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
@@ -17,9 +17,5 @@ def main(description, question, correct_answer):
                 f"'{correct_answer}'.\nLet's try again, {name}!",
             )
             break
-        if game_round == rounds_number - 1:
+        if game_round == len(game_data) - 1:
             print(f'Congratulations, {name}!')
-
-
-if __name__ == '__main__':
-    main()
