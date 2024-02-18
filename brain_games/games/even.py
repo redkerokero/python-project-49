@@ -6,7 +6,7 @@ def is_even(number):
     return number % 2 == 0
 
 
-def even_game():
+def run_even_game():
     game_task = 'Answer "yes" if the number is even, otherwise answer "no".'
     amount_of_rounds = 3
     max_number = 99

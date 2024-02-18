@@ -2,7 +2,7 @@ import random
 from brain_games import engine
 
 
-def calc_game():
+def run_calc_game():
     game_task = 'What is the result of the expression?'
     amount_of_rounds = 3
     max_number = 99

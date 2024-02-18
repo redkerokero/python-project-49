@@ -2,7 +2,7 @@ import random
 from brain_games import engine
 
 
-def gcd_game():
+def run_gcd_game():
     game_task = 'Find the greatest common divisor of given numbers.'
     amount_of_rounds = 3
     max_number = 99
