@@ -29,3 +29,12 @@
 
 ### Defeat
 [![asciicast](https://asciinema.org/a/P2449darIKaSfUE2aKsBbbQKI.svg)](https://asciinema.org/a/P2449darIKaSfUE2aKsBbbQKI)
+
+
+
+## Brain-progression
+### Win
+[![asciicast](https://asciinema.org/a/90jqoylUZQilkWwFkFexv1I0X.svg)](https://asciinema.org/a/90jqoylUZQilkWwFkFexv1I0X)
+
+### Defeat
+[![asciicast](https://asciinema.org/a/Hk3fkxSUORSFqINs1kaHM3O3x.svg)](https://asciinema.org/a/Hk3fkxSUORSFqINs1kaHM3O3x)
