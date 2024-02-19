@@ -2,10 +2,6 @@ import random
 from brain_games import engine
 
 
-def is_even(number):
-    return number % 2 == 0
-
-
 def run_even_game():
     game_task = 'Answer "yes" if the number is even, otherwise answer "no".'
     amount_of_rounds = 3
@@ -13,7 +9,7 @@ def run_even_game():
     game_data = []
     for _ in range(amount_of_rounds):
         question = random.randint(1, max_number)
-        if is_even(question):
+        if question % 2 == 0:
             answer = 'yes'
         else:
             answer = 'no'
