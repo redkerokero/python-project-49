@@ -5,7 +5,7 @@ from brain_games import engine
 def run_gcd_game():
     game_task = 'Find the greatest common divisor of given numbers.'
     amount_of_rounds = 3
-    max_number = 99
+    max_number = 999
     game_data = []
     for _ in range(amount_of_rounds):
         first_number = random.randint(1, max_number)
