@@ -5,10 +5,10 @@ from brain_games import engine
 def generate_progression(
     progression_length,
     max_number=99,
-    delta_min=-10,
-    delta_max=10,
+    delta_min_limit=-10,
+    delta_max_limit=10,
 ):
-    delta = random.randint(delta_min, delta_max)
+    delta = random.randint(delta_min_limit, delta_max_limit)
     progression_item = str(random.randint(1, max_number))
     progression = [progression_item]
     for _ in range(progression_length - 1):
