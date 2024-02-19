@@ -30,7 +30,7 @@ def hide_list_item(input_list):
 
 
 def run_progression_game():
-    game_task = 'Find the greatest common divisor of given numbers.'
+    game_task = 'What number is missing in the progression?'
     amount_of_rounds = 3
     min_progression_length = 5
     max_progression_length = 15
