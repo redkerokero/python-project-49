@@ -38,3 +38,11 @@
 
 ### Defeat
 [![asciicast](https://asciinema.org/a/Hk3fkxSUORSFqINs1kaHM3O3x.svg)](https://asciinema.org/a/Hk3fkxSUORSFqINs1kaHM3O3x)
+
+
+## Brain-prime
+### Win
+[![asciicast](https://asciinema.org/a/50Ac1f1LH3bhVnXXy6Rqa7i6p.svg)](https://asciinema.org/a/50Ac1f1LH3bhVnXXy6Rqa7i6p)
+
+### Defeat
+[![asciicast](https://asciinema.org/a/SMQs1jHMmlzfgbcbTPMgPsAG1.svg)](https://asciinema.org/a/SMQs1jHMmlzfgbcbTPMgPsAG1)
