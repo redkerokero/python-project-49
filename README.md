@@ -2,6 +2,27 @@
 [![Actions Status](https://github.com/greenkerokero/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/greenkerokero/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0cd1e22c7f34f2e91597/maintainability)](https://codeclimate.com/github/greenkerokero/python-project-49/maintainability)
 
+
+## Brain-games
+Brain Games is a set of five console games built on the principle of popular mobile applications for brain training. Each game asks questions that must be answered correctly. After three correct answers, the game is considered completed. Wrong answers end the game and prompt you to play it again. 
+Games:
+
+- Calculator. Arithmetic expressions to be evaluated
+- Progression. Finding missing numbers in a sequence of numbers
+- Definition of even number
+- Definition of greatest common divisor
+- Definition of prime number
+
+
+## System requirements
+- Python >= 3.11
+- [Prompt](https://pypi.org/project/prompt/) >= 0.4.1
+
+## Setup
+make install
+make build
+make package-install
+
 ## Brain-games install
 [![asciicast](https://asciinema.org/a/LxqUBzA7WAKsyXcR4aamNo96h.svg)](https://asciinema.org/a/LxqUBzA7WAKsyXcR4aamNo96h)
 
