@@ -1,6 +1,10 @@
 import random
 from math import trunc, sqrt
-from brain_games import engine
+
+
+GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+AMOUNT_OF_ROUNDS = 3
+MAX_NUMBER = 99
 
 
 def is_prime(number):
@@ -13,16 +17,10 @@ def is_prime(number):
     return True
 
 
-def run_prime_game():
-    game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    amount_of_rounds = 3
-    max_number = 99
-    game_data = []
-    for _ in range(amount_of_rounds):
-        question = random.randint(1, max_number)
-        if is_prime(question):
-            answer = 'yes'
-        else:
-            answer = 'no'
-        game_data.append((question, answer))
-    engine.main(game_task, game_data)
+def run_prime_game(max_number):
+    question = random.randint(1, max_number)
+    if is_prime(question):
+        answer = 'yes'
+    else:
+        answer = 'no'
+    return (question, answer)
