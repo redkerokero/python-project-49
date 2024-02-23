@@ -1,6 +1,5 @@
 import random
 
-
 GAME_TASK = 'What number is missing in the progression?'
 AMOUNT_OF_ROUNDS = 3
 MAX_NUMBER = 99
