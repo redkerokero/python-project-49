@@ -1,23 +1,21 @@
 import random
-from brain_games import engine
+
+GAME_TASK = 'Find the greatest common divisor of given numbers.'
+AMOUNT_OF_ROUNDS = 3
+MAX_NUMBER = 99
 
 
-def run_gcd_game():
-    game_task = 'Find the greatest common divisor of given numbers.'
-    amount_of_rounds = 3
-    max_number = 999
-    game_data = []
-    for _ in range(amount_of_rounds):
-        first_number = random.randint(1, max_number)
-        second_number = random.randint(1, max_number)
-        question = f'{first_number} {second_number}'
-        if first_number < second_number:
-            first_number, second_number = second_number, first_number
+def run_gcd_game(max_number):
+    first_number = random.randint(1, max_number)
+    second_number = random.randint(1, max_number)
+    question = f'{first_number} {second_number}'
+    if first_number < second_number:
+        first_number, second_number = second_number, first_number
+    remainder = first_number % second_number
+    while remainder > 0:
+        first_number = second_number
+        second_number = remainder
         remainder = first_number % second_number
-        while remainder > 0:
-            first_number = second_number
-            second_number = remainder
-            remainder = first_number % second_number
-        answer = str(second_number)
-        game_data.append((question, answer))
-    engine.main(game_task, game_data)
+    answer = str(second_number)
+    return (question, answer)
+
