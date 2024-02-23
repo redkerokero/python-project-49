@@ -1,10 +1,14 @@
 import random
-from brain_games import engine
+
+
+GAME_TASK = 'What number is missing in the progression?'
+AMOUNT_OF_ROUNDS = 3
+MAX_NUMBER = 99
 
 
 def generate_progression(
     progression_length,
-    max_number=99,
+    max_number,
     delta_min_limit=-10,
     delta_max_limit=10,
 ):
@@ -29,19 +33,14 @@ def hide_list_item(input_list):
     return (output_list, hiden_element)
 
 
-def run_progression_game():
-    game_task = 'What number is missing in the progression?'
-    amount_of_rounds = 3
+def run_progression_game(max_number):
     min_progression_length = 5
     max_progression_length = 15
-    game_data = []
-    for _ in range(amount_of_rounds):
-        progression_length = random.randint(
-            min_progression_length,
-            max_progression_length,
-        )
-        progression = generate_progression(progression_length)
-        question, answer = hide_list_item(progression)
-        question = ' '.join(question)
-        game_data.append((question, answer))
-    engine.main(game_task, game_data)
+    progression_length = random.randint(
+        min_progression_length,
+        max_progression_length,
+    )
+    progression = generate_progression(progression_length, max_number)
+    question, answer = hide_list_item(progression)
+    question = ' '.join(question)
+    return (question, answer)
