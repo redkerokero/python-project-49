@@ -18,4 +18,3 @@ def run_gcd_game(max_number):
         remainder = first_number % second_number
     answer = str(second_number)
     return (question, answer)
-
