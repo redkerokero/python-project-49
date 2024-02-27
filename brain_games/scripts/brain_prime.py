@@ -4,11 +4,7 @@ from brain_games.games import prime
 
 
 def main():
-    game_task = prime.GAME_TASK
-    amount_of_rounds = prime.AMOUNT_OF_ROUNDS
-    max_number = prime.MAX_NUMBER
-    game = prime.run_prime_game
-    engine.main(game_task, amount_of_rounds, max_number, game)
+    engine.main(prime)
 
 
 if __name__ == '__main__':

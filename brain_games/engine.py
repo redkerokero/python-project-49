@@ -1,12 +1,12 @@
 import prompt
 
 
-def main(game_task, amount_of_rounds, max_number, game):
+def main(game):
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!')
-    print(game_task)
-    for game_round in range(amount_of_rounds):
-        question, correct_answer = game(max_number)
+    print(game.GAME_TASK)
+    for game_round in range(game.AMOUNT_OF_ROUNDS):
+        question, correct_answer = game.main(game.MAX_NUMBER)
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
@@ -17,5 +17,5 @@ def main(game_task, amount_of_rounds, max_number, game):
                 f"'{correct_answer}'.\nLet's try again, {name}!",
             )
             break
-        if game_round == amount_of_rounds - 1:
+        if game_round == game.AMOUNT_OF_ROUNDS - 1:
             print(f'Congratulations, {name}!')

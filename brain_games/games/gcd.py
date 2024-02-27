@@ -5,7 +5,7 @@ AMOUNT_OF_ROUNDS = 3
 MAX_NUMBER = 99
 
 
-def run_gcd_game(max_number):
+def main(max_number):
     first_number = random.randint(1, max_number)
     second_number = random.randint(1, max_number)
     question = f'{first_number} {second_number}'
