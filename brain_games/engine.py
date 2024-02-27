@@ -12,7 +12,7 @@ def greetings():
 def main(game):
     name = greetings()
     print(game.GAME_TASK)
-    for game_round in range(AMOUNT_OF_ROUNDS):
+    for _ in range(AMOUNT_OF_ROUNDS):
         question, correct_answer = game.main(game.MAX_NUMBER)
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
@@ -23,6 +23,5 @@ def main(game):
                 f"'{answer}' is wrong answer ;(. Correct answer was",
                 f"'{correct_answer}'.\nLet's try again, {name}!",
             )
-            break
-        if game_round == AMOUNT_OF_ROUNDS - 1:
-            print(f'Congratulations, {name}!')
+            return
+    print(f'Congratulations, {name}!')
