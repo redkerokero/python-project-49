@@ -1,7 +1,6 @@
 import random
 
 GAME_TASK = 'Find the greatest common divisor of given numbers.'
-AMOUNT_OF_ROUNDS = 3
 MAX_NUMBER = 99
 
 

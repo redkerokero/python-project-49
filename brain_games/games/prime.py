@@ -2,7 +2,6 @@ import random
 from math import sqrt, trunc
 
 GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-AMOUNT_OF_ROUNDS = 3
 MAX_NUMBER = 99
 
 

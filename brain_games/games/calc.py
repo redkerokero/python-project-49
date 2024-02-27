@@ -1,7 +1,6 @@
 import random
 
 GAME_TASK = 'What is the result of the expression?'
-AMOUNT_OF_ROUNDS = 3
 MAX_NUMBER = 99
 
 

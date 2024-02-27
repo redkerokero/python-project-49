@@ -1,7 +1,6 @@
 import random
 
 GAME_TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
-AMOUNT_OF_ROUNDS = 3
 MAX_NUMBER = 99
 
 
