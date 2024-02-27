@@ -28,7 +28,7 @@ def hide_list_item(input_list):
             hiden_element = element
         else:
             output_list.append(element)
-    return (output_list, hiden_element)
+    return output_list, hiden_element
 
 
 def main(max_number):
@@ -41,4 +41,4 @@ def main(max_number):
     progression = generate_progression(progression_length, max_number)
     question, answer = hide_list_item(progression)
     question = ' '.join(question)
-    return (question, answer)
+    return question, answer

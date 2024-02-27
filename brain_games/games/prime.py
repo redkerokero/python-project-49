@@ -21,4 +21,4 @@ def main(max_number):
         answer = 'yes'
     else:
         answer = 'no'
-    return (question, answer)
+    return question, answer

@@ -18,4 +18,4 @@ def main(max_number):
         case '*':
             question = f'{first_number} * {second_number}'
             answer = str(first_number * second_number)
-    return (question, answer)
+    return question, answer

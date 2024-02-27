@@ -16,4 +16,4 @@ def main(max_number):
         second_number = remainder
         remainder = first_number % second_number
     answer = str(second_number)
-    return (question, answer)
+    return question, answer
