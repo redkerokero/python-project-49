@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.9.0"
+version = "0.9.1"
 description = "Set of five short console games"
 authors = ["Dmitriy <kerokero@yandex.ru>"]
 readme = "README.md"
