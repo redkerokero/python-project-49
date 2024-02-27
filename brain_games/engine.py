@@ -3,9 +3,14 @@ import prompt
 AMOUNT_OF_ROUNDS = 3
 
 
-def main(game):
+def greetings():
     name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!')
+    return name
+
+
+def main(game):
+    name = greetings()
     print(game.GAME_TASK)
     for game_round in range(AMOUNT_OF_ROUNDS):
         question, correct_answer = game.main(game.MAX_NUMBER)
