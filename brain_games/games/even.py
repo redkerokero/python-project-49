@@ -10,8 +10,5 @@ def is_even(question):
 
 def main(max_number):
     question = random.randint(1, max_number)
-    if is_even(question):
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = 'yes' if is_even(question) else 'no'
     return question, answer

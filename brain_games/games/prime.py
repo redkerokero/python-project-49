@@ -17,8 +17,5 @@ def is_prime(number):
 
 def main(max_number):
     question = random.randint(1, max_number)
-    if is_prime(question):
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = 'yes' if is_prime(question) else 'no'
     return question, answer
