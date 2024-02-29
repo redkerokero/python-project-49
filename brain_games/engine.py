@@ -13,7 +13,7 @@ def main(game):
     name = greetings()
     print(game.GAME_TASK)
     for _ in range(AMOUNT_OF_ROUNDS):
-        question, correct_answer = game.main(game.MAX_NUMBER)
+        question, correct_answer = game.gen_question_answer(game.MAX_NUMBER)
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

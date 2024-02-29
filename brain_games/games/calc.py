@@ -4,7 +4,7 @@ GAME_TASK = 'What is the result of the expression?'
 MAX_NUMBER = 99
 
 
-def main(max_number):
+def gen_question_answer(max_number):
     first_number = random.randint(1, max_number)
     second_number = random.randint(1, max_number)
     operation = random.choice(['+', '-', '*'])

@@ -8,7 +8,7 @@ def is_even(question):
     return question % 2 == 0
 
 
-def main(max_number):
+def gen_question_answer(max_number):
     question = random.randint(1, max_number)
     answer = 'yes' if is_even(question) else 'no'
     return question, answer

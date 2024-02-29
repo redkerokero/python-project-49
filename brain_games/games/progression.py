@@ -31,7 +31,7 @@ def hide_list_item(input_list):
     return output_list, hiden_element
 
 
-def main(max_number):
+def gen_question_answer(max_number):
     min_progression_length = 5
     max_progression_length = 15
     progression_length = random.randint(
