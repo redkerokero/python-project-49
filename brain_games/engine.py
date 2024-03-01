@@ -4,24 +4,26 @@ AMOUNT_OF_ROUNDS = 3
 
 
 def greetings():
-    name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
-    print(f'Hello, {name}!')
-    return name
+    username = prompt.string(
+        'Welcome to the Brain Games!\nMay I have your name? ',
+    )
+    print(f'Hello, {username}!')
+    return username
 
 
 def main(game):
-    name = greetings()
+    username = greetings()
     print(game.GAME_TASK)
     for _ in range(AMOUNT_OF_ROUNDS):
         question, correct_answer = game.gen_question_answer(game.MAX_NUMBER)
         print(f'Question: {question}')
-        answer = prompt.string('Your answer: ')
-        if answer == correct_answer:
+        user_answer = prompt.string('Your answer: ')
+        if user_answer == correct_answer:
             print('Correct!')
         else:
             print(
-                f"'{answer}' is wrong answer ;(. Correct answer was",
-                f"'{correct_answer}'.\nLet's try again, {name}!",
+                f"'{user_answer}' is wrong answer ;(. Correct answer was",
+                f"'{correct_answer}'.\nLet's try again, {username}!",
             )
             return
-    print(f'Congratulations, {name}!')
+    print(f'Congratulations, {username}!')
