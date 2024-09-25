@@ -1,4 +1,5 @@
 .venv/
+.vscode/
 
 # Ignore package distributives
 dist/
